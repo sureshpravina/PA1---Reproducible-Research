@@ -1,4 +1,12 @@
 # Reproducible Research: Peer Assessment 1
+```{r global_options, include=FALSE}
+
+library(knitr)
+opts_chunk$set(fig.width=12, fig.height=8, fig.path='Figs/',
+               echo=TRUE, warning=FALSE, message=FALSE)
+```
+
+
 ## Loading and Preprocessing the data
 ```{r}
 activitydata <- read.csv("activity.csv")
